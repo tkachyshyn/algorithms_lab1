@@ -16,21 +16,20 @@ int main(){
         for (int j = 0; j < i; j++) {
             size *= 2;
         }
-//        int size = 10;
         int array[size];
 
-//        printf("Experiment for randomly generated numbers in the array of the size: %d \n", size);
-//        randomArray(array, size);
-//        checkTime(array, size);
+        printf("Experiment for randomly generated numbers in the array of the size: %d \n", size);
+        randomArray(array, size);
+        checkTime(array, size);
 
-//        printf("Experiment for increasingly numbers in the array of the size: %d \n", size);
-//        increasingArray(array, size);
-//        checkTime(array, size);
-//
-//        printf("Experiment for decreasingly generated numbers in the array of the size: %d \n", size);
-//        decreasingArray(array, size);
-//        checkTime(array, size);
-//
+        printf("Experiment for increasingly numbers in the array of the size: %d \n", size);
+        increasingArray(array, size);
+        checkTime(array, size);
+
+        printf("Experiment for decreasingly generated numbers in the array of the size: %d \n", size);
+        decreasingArray(array, size);
+        checkTime(array, size);
+
         printf("Experiment for small set of generated numbers in the array of the size: %d \n", size);
         lastArray(array, size);
         checkTime(array, size);
